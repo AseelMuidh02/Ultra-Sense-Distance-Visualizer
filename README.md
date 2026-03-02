@@ -1,5 +1,6 @@
 Ultra Sense: Distance Visualizer
 Arduino Mega 2560 + Ultrasonic Sensor + MAX7219 LED Matrix
+
 📌 Project Overview
 
 This project presents a real-time distance visualization system using an ultrasonic sensor and an 8×8 LED Dot Matrix controlled by a MAX7219 driver module.
@@ -20,6 +21,7 @@ Process the data using Arduino Mega 2560
 Convert distance values into a visual bar graph
 
 Display results in real time on an LED matrix
+
 
 🛠 Hardware Components
 
@@ -65,6 +67,7 @@ GND	GND
 DIN	51 (MOSI)
 CLK	52 (SCK)
 CS	53 (SS)
+
 💻 Software & Libraries
 
 Arduino IDE
