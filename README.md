@@ -1,6 +1,7 @@
 Ultra Sense: Distance Visualizer
 Arduino Mega 2560 + Ultrasonic Sensor + MAX7219 LED Matrix
 
+
 📌 Project Overview
 
 This project presents a real-time distance visualization system using an ultrasonic sensor and an 8×8 LED Dot Matrix controlled by a MAX7219 driver module.
@@ -11,6 +12,7 @@ As the object gets closer, more LED columns light up.
 If no object is detected (or distance ≥ 100 cm), the display remains off.
 
 This project demonstrates the integration of sensing, data processing, and visual output in embedded systems.
+
 
 🎯 Project Objective
 
@@ -37,6 +39,7 @@ Female-to-Male jumper wires
 
 USB cable
 
+
 ⚙️ System Architecture
 
 Ultrasonic Sensor → Arduino Mega 2560 → MAX7219 → LED Matrix Display
@@ -53,6 +56,7 @@ The distance value is mapped to a bar graph (0–8 columns).
 
 The LED matrix updates every 500 ms.
 
+
 🔌 Pin Connections
 Ultrasonic Sensor
 Sensor Pin	Arduino Mega
@@ -68,6 +72,7 @@ DIN	51 (MOSI)
 CLK	52 (SCK)
 CS	53 (SS)
 
+
 💻 Software & Libraries
 
 Arduino IDE
@@ -76,6 +81,7 @@ LedControl Library
 
 Install library via:
 Sketch → Include Library → Manage Libraries → Search "LedControl"
+
 
 🧠 System Logic
 
@@ -86,6 +92,7 @@ If object gets closer → More columns light up
 Maximum 8 columns represent closest range
 
 Display refresh rate: 500 ms
+
 
 ▶️ How to Run
 
@@ -101,6 +108,7 @@ Move an object in front of the sensor.
 
 Observe LED bar graph response.
 
+
 📊 Expected Output
 
 No object → Matrix OFF
@@ -108,6 +116,7 @@ No object → Matrix OFF
 Object far away → Few columns ON
 
 Object close → Many columns ON
+
 
 🎓 Learning Outcomes
 
@@ -122,6 +131,7 @@ Mapping sensor data to visual output
 Debugging hardware connections
 
 Embedded system integration
+
 
 📹 Demonstration
 
