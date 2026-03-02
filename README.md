@@ -58,6 +58,7 @@ The LED matrix updates every 500 ms.
 
 
 🔌 Pin Connections
+
 Ultrasonic Sensor
 Sensor Pin	Arduino Mega
 VCC	5V
