@@ -60,17 +60,29 @@ The LED matrix updates every 500 ms.
 🔌 Pin Connections
 
 Ultrasonic Sensor
+
 Sensor Pin	Arduino Mega
+
 VCC	5V
+
 GND	GND
+
 TRIG	A5
+
 ECHO	A6
+
 MAX7219 LED Matrix
+
 Module Pin	Arduino Mega
+
 VCC	5V
+
 GND	GND
+
 DIN	51 (MOSI)
+
 CLK	52 (SCK)
+
 CS	53 (SS)
 
 
